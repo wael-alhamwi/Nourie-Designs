@@ -27,5 +27,5 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/gh-pages/LICENSE) license.
 
-## All rights reserved to it's original owners
+## All rights reserved to its original owners
 ## Template was edited and used by Eng.Wael Alhamwi# Nourie-Designs
