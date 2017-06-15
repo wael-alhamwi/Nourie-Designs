@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A gift to a friend for her new business">
+    <meta name="author" content="Wael Alhamwi">
+
+    <title>Nourie Designs</title>
+
+    <!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/my-css.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="img/icons/butterfly.png" rel="icon" type="image/x-icon">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!-- jQuery -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	
+	<!-- Bootstrap JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Custom JavaScript -->
+	<script src="js/my-js.js"></script>
+</head>
+
+<body>
+
+     <div class="brand"><img src="img/icons/butterfly.png" style="height:75px;width:75px">Nourie Designs</div>
+    <div class="address-bar">3835 Main Street | Culver City, CA 90232 | 123.456.7890</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Nourie Designs</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+					<li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+					<li>
+                        <a href="kind-words.html">Kind words</a>
+                    </li>
+					<li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+				<div class="col-lg-12">
+					<hr>
+					<h2 class="intro-text text-center">
+						<strong>Portfolio</strong>
+					</h2>
+					<hr>
+				</div>
+				
+				<!-- Albums categories -->
+				<div align="center">
+					<button class="btn btn-default filter-button" data-filter="all">All</button>
+					<button class="btn btn-default filter-button" data-filter="boys">Boys</button>
+					<button class="btn btn-default filter-button" data-filter="girls">Girls</button>
+				</div>
+				<br/>
+				
+				<!-- Albums -->
+				
+				<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter boys">
+					<img src="img/albums/1/cabin.png" onclick="openModal('Modal1')" class="img-responsive hover-shadow cursor">
+					<p style="text-align:center">Cabin</p>
+				</div>
+
+				<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter girls">
+					<img src="img/albums/2/cake.png" onclick="openModal('Modal2')" class="img-responsive hover-shadow cursor">
+					<p style="text-align:center">Cake</p>
+				</div>
+
+				<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter boys">
+					<img src="img/albums/3/circus.png" onclick="openModal('Modal3')" class="img-responsive hover-shadow cursor">
+					<p style="text-align:center">Circus</p>
+				</div>
+
+				<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter boys">
+					<img src="img/albums/4/game.png" onclick="openModal('Modal4')" class="img-responsive hover-shadow cursor">
+					<p style="text-align:center">Game</p>
+				</div>
+
+				<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter boys">
+					<img src="img/albums/5/safe.png" onclick="openModal('Modal5')" class="img-responsive hover-shadow cursor">
+					<p style="text-align:center">Safe</p>
+				</div>
+
+				<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter girls">
+					<img src="img/albums/6/submarine.png" onclick="openModal('Modal6')" class="img-responsive hover-shadow cursor">
+					<p style="text-align:center">Submarine</p>
+				</div>
+						
+
+				
+			</div>
+		</div>
+	</div>
+	<!-- /.container -->
+	<!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+				<p style="padding-bottom:0">
+				<a href="https://www.facebook.com/NouRieDesigns" target="_blank"><img src="img/icons/facebook-icon.png" style="height:60px;width:60px" alt="Facebook icon"></a>
+				<a href="#" target="_blank"><img src="img/icons/google-plus-icon.png" style="height:60px;width:60px" alt="Google plus icon"></a>
+				<a href="https://www.instagram.com/nouriedesigns" target="_blank"><img src="img/icons/Instagram-icon.png" style="height:60px;width:60px" class="img-rounded" alt="Instagram icon"></a>
+				<br>Follow me
+				</p>
+                <p style="font-size:10px;padding-bottom:10;padding-top:0"><br>Copyright <a href="https://www.linkedin.com/in/wael-alhamwi-a420937b/" target="_blank">WH</a> &copy; 2017. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+	<!-- Modal 1 -->
+	<div id="Modal1" class="modal">
+	  <span class="close cursor" onclick="closeModal('Modal1')">&times;</span>
+		  <div class="modal-content">
+				<div class="container">
+				  <h2>Carousel Example - 1</h2>
+				  <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel-1" data-slide-to="1"></li>
+					  <li data-target="#myCarousel-1" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+
+					  <div class="item active">
+						<img src="img/albums/1/cabin.png" alt="Cabin" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Cabin</h3>
+						  <p>LA is always so much fun!</p>
+						</div>
+					  </div>
+
+					  <div class="item">
+						<img src="img/albums/5/safe.png" alt="Safe" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Safe</h3>
+						  <p>Thank you, Safe!</p>
+						</div>
+					  </div>
+					
+					  <div class="item">
+						<img src="img/albums/6/submarine.png" alt="submarine" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Submarine</h3>
+						  <p>We love the Big submarine!</p>
+						</div>
+					  </div>
+				  
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel-1" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel-1" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+				</div>
+		  </div>
+	</div>
+
+	<!-- Modal 2 -->
+	<div id="Modal2" class="modal">
+	  <span class="close cursor" onclick="closeModal('Modal2')">&times;</span>
+		  <div class="modal-content">
+				<div class="container">
+				  <h2>Carousel Example - 2</h2>
+				  <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel-2" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel-2" data-slide-to="1"></li>
+					  <li data-target="#myCarousel-2" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+
+					  <div class="item active">
+						<img src="img/albums/2/cake.png" alt="Cake" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Cake</h3>
+						  <p>LA is always so much fun!</p>
+						</div>
+					  </div>
+
+					  <div class="item">
+						<img src="img/albums/5/safe.png" alt="Safe" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Safe</h3>
+						  <p>Thank you, Safe!</p>
+						</div>
+					  </div>
+					
+					  <div class="item">
+						<img src="img/albums/6/submarine.png" alt="submarine" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Submarine</h3>
+						  <p>We love the Big submarine!</p>
+						</div>
+					  </div>
+				  
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel-2" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel-2" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+				</div>
+		  </div>
+	</div>
+	
+	<!-- Modal 3 -->
+	<div id="Modal3" class="modal">
+		<span class="close cursor" onclick="closeModal('Modal3')">&times;</span>
+			<div class="modal-content">
+				  <div class="container">
+				  <h2>Carousel Example - 3</h2>
+				  <div id="myCarousel-3" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel-3" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel-3" data-slide-to="1"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+
+					  <div class="item active">
+						<img src="img/albums/3/circus.png" alt="Circus" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Circus</h3>
+						  <p>LA is always so much fun!</p>
+						</div>
+					  </div>
+
+					  <div class="item">
+						<img src="img/albums/2/cake.png" alt="Cake" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Safe</h3>
+						  <p>Thank you, Safe!</p>
+						</div>
+					  </div>
+					
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel-3" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel-3" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+				</div>
+			</div>
+	</div>
+	
+	<!-- Modal 4 -->
+	<div id="Modal4" class="modal">
+		<span class="close cursor" onclick="closeModal('Modal4')">&times;</span>
+			<div class="modal-content">
+				  <div class="container">
+				  <h2>Carousel Example - 4</h2>
+				  <div id="myCarousel-4" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel-4" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel-4" data-slide-to="1"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+
+					  <div class="item active">
+						<img src="img/albums/4/game.png" alt="Game" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Game</h3>
+						  <p>LA is always so much fun!</p>
+						</div>
+					  </div>
+
+					  <div class="item">
+						<img src="img/albums/2/cake.png" alt="Cake" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Safe</h3>
+						  <p>Thank you, Safe!</p>
+						</div>
+					  </div>
+					
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel-4" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel-4" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+				</div>
+			</div>
+	</div>
+	
+	<!-- Modal 5 -->
+	<div id="Modal5" class="modal">
+		<span class="close cursor" onclick="closeModal('Modal5')">&times;</span>
+			<div class="modal-content">
+				  <div class="container">
+				  <h2>Carousel Example - 5</h2>
+				  <div id="myCarousel-5" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel-5" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel-5" data-slide-to="1"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+
+					  <div class="item active">
+						<img src="img/albums/5/safe.png" alt="Safe" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Safe</h3>
+						  <p>LA is always so much fun!</p>
+						</div>
+					  </div>
+
+					  <div class="item">
+						<img src="img/albums/2/cake.png" alt="Cake" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Safe</h3>
+						  <p>Thank you, Safe!</p>
+						</div>
+					  </div>
+					
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel-5" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel-5" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+				</div>
+			</div>
+	</div>
+	
+	<!-- Modal 6 -->
+	<div id="Modal6" class="modal">
+		<span class="close cursor" onclick="closeModal('Modal6')">&times;</span>
+			<div class="modal-content">
+				  <div class="container">
+				  <h2>Carousel Example - 6</h2>
+				  <div id="myCarousel-6" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel-6" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel-6" data-slide-to="1"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+
+					  <div class="item active">
+						<img src="img/albums/6/submarine.png" alt="Submarine" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Submarine</h3>
+						  <p>LA is always so much fun!</p>
+						</div>
+					  </div>
+
+					  <div class="item">
+						<img src="img/albums/2/cake.png" alt="Cake" style="max-height:550px; margin:0 auto;">
+						<div class="carousel-caption">
+						  <h3>Safe</h3>
+						  <p>Thank you, Safe!</p>
+						</div>
+					  </div>
+					
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel-6" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel-6" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+				</div>
+			</div>
+	</div>
+	
+</body>
+
+</html>
